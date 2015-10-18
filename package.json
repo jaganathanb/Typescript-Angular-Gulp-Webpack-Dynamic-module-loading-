@@ -1,0 +1,57 @@
+{
+  "name": "TAGW",
+  "version": "0.0.0",
+  "description": "am app with Angular, Typescript, Gulp & Webpack",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp scripts:cplts",
+    "bundle": "gulp webpack",
+    "launch": "gulp start"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "typescript",
+    "dynamic module loading"
+  ],
+  "author": "Jaganathan B",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-cookies": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "autoprefixer-loader": "^3.1.0",
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.19.0",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^0.0.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-flatten": "^0.0.2",
+    "gulp-imagemin": "^0.5.0",
+    "gulp-inject": "^1.2.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-order": "^1.1.1",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-typescript": "^2.5.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^1.2.1",
+    "gulp-webpack": "^1.5.0",
+    "gulp-webserver": "^0.9.1",
+    "gutil": "^1.6.4",
+    "ng-cache-loader": "0.0.13",
+    "sass-loader": "^3.0.0",
+    "style-loader": "^0.12.4",
+    "tiny-lr": "^0.1.6",
+    "underscore": "^1.8.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^0.5.1"
+  }
+}

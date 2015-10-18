@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        {{vm.title}}
+    </div>
+    <div class="panel-body">
+        <p> A list of our apps: </p>
+        <ul class="list">
+            <li class="list-item" ng-repeat="capt in vm.apps" ng-bind="capt.name"></li>
+        </ul>
+    </div>
+</div>

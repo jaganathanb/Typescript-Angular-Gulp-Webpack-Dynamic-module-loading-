@@ -1,0 +1,34 @@
+<section class="dashboard">
+	<aside ng-include="'app.nav.html'">
+	</aside>
+
+	<div class="container-fluid main-container">
+		<div class="col-md-2 sidebar">
+			<div class="row">
+				<!-- uncomment code for absolute positioning tweek see top comment in css -->
+				<div class="absolute-wrapper"> </div>
+				<!-- Menu -->
+				<div class="side-menu">
+					<nav class="navbar navbar-default" role="navigation">
+						<!-- Main Menu -->
+						<div class="side-menu-container">
+							<ul class="nav navbar-nav">
+								<li ng-repeat="item in app.navItems track by $index">
+									<a ng-click="app.navigate(item.url)"><span class="{{::item.class}}"></span>{{::item.title}}</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-10 content">
+			<ng-view></ng-view>
+		</div>
+		<footer class="pull-left footer">
+			<p class="col-md-12">
+				<hr class="divider"> Copyright &COPY; 2015 Jaganathan B
+			</p>
+		</footer>
+	</div>
+</section>
