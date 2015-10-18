@@ -1,4 +1,4 @@
-# TAGW
+# TAGW - Typescript-Angular-Gulp-Webpack
 An example Single Page Application using AngularJS, Typescript, Gulp and Webpack to showcase the on-demand loading of angular modules using webpack.
 ### Version
 1.0.0
